@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function App() {
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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",
   });
   const openai = new OpenAIApi(configuration);
   const [option, setOption] = useState({});
